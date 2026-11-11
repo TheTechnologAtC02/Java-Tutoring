@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChangeCalc {
+public class BanknoteCalculator {
 
     /*
      * A bank tasked you with creating a program that determines the optimal way to hand out cash.

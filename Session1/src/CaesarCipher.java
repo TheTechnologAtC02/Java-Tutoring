@@ -1,4 +1,4 @@
-public class Nonogram {
+public class CaesarCipher {
     public static void main(String[] args) {
         String[] input = {"a", "b", "c"};
 
