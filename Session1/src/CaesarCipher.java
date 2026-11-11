@@ -1,5 +1,5 @@
 public class CaesarCipher {
-    public static void main(String[] args) {
+    static void main() {
         String[] input = {"a", "b", "c"};
 
         String result = caesar(input, 1);
