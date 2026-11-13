@@ -6,6 +6,9 @@ public class ArrayManipulations {
         // The fixed input array
         int[] input = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
+        System.out.println("Input:");
+        System.out.println(Arrays.toString(input));
+
         System.out.println("Array Inverter:");
         invertArray(input);
 
@@ -40,7 +43,6 @@ public class ArrayManipulations {
         }
 
         // Output
-        System.out.println(Arrays.toString(input));
         System.out.println(Arrays.toString(result));
     }
 
@@ -65,7 +67,6 @@ public class ArrayManipulations {
         }
 
         // Output
-        System.out.println(Arrays.toString(input));
         System.out.println(Arrays.toString(result));
     }
 
@@ -76,7 +77,6 @@ public class ArrayManipulations {
             int indexInResult = (i + shift) % length;
             result[indexInResult] = input[i];
         }
-        System.out.println(Arrays.toString(input));
         System.out.println(Arrays.toString(result));
     }
 
@@ -94,7 +94,6 @@ public class ArrayManipulations {
             }
             result[indexInResult] = input[i];
         }
-        System.out.println(Arrays.toString(input));
         System.out.println(Arrays.toString(result));
     }
 }
